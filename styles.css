@@ -1,5 +1,35 @@
+body {
+    margin: 0;
+}
+
 .head-cont {
     display: flex;
-    background-color: blue;
-    justify-content: space-between;
+    background-color: #1f2937;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.logo {
+    font-size: 22px;
+}
+
+.links, li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+li, a {
+    padding: 0;
+    color: rgb(188, 183, 183);
+    
+}
+
+a {
+    text-decoration: none;
+}
+
