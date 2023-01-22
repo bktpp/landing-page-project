@@ -25,11 +25,46 @@ body {
 
 li, a {
     padding: 0;
-    color: rgb(188, 183, 183);
-    
+    color: rgb(188, 183, 183); 
 }
 
 a {
     text-decoration: none;
 }
+
+.container-two {
+    display: flex;
+    justify-content: space-around;
+    
+    /*justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    border: 2px lightgreen solid;*/
+}
+
+.container-two > * {
+    flex-basis: 100%;
+}
+
+.cont-left {
+    border: 2px red solid;
+    text-align: center;
+    margin: 100px;
+    
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: rgb(188, 183, 183);
+}
+
+.cont-right {
+    background-color: gray;
+    border: 2px orangered solid;
+    
+    
+} 
 
