@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
@@ -8,6 +12,7 @@ body {
     color: white;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .logo {
@@ -31,26 +36,30 @@ li, a {
 
 .container-two {
     display: flex;
-    justify-content: space-around;
     background-color: #1f2937;
-    /*justify-content: space-between;
+    height: 250px;
+    justify-content: center;/*
     align-items: center;
     background-color: #1f2937;
     border: 2px lightgreen solid;*/
 }
 
-.container-two > * {
-    flex-basis: 100%;
+.container-two > div {
+    width: 400px;
 }
 
 .cont-left {
     border: 2px red solid;
-    text-align: center;
+    text-align: left;
+    padding-right: 30px;  
 }
 
 .cont-right {
     background-color: gray;
-    border: 2px orangered solid; 
+    border: 2px orangered solid;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 } 
 
 h1 {
@@ -58,7 +67,15 @@ h1 {
 }
 
 p {
-    color: rgb(188, 183, 183);
+    color: rgb(188, 183, 183);   
+}
+
+button {
+    background-color: rgb(72, 123, 233);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
 }
 
 
