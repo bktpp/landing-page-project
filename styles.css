@@ -25,17 +25,14 @@ body {
 
 li, a {
     padding: 0;
-    color: rgb(188, 183, 183); 
-}
-
-a {
-    text-decoration: none;
+    color: rgb(188, 183, 183);
+    text-decoration: none; 
 }
 
 .container-two {
     display: flex;
     justify-content: space-around;
-    
+    background-color: #1f2937;
     /*justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
@@ -49,9 +46,12 @@ a {
 .cont-left {
     border: 2px red solid;
     text-align: center;
-    margin: 100px;
-    
 }
+
+.cont-right {
+    background-color: gray;
+    border: 2px orangered solid; 
+} 
 
 h1 {
     color: white;
@@ -61,10 +61,5 @@ p {
     color: rgb(188, 183, 183);
 }
 
-.cont-right {
-    background-color: gray;
-    border: 2px orangered solid;
-    
-    
-} 
+
 
