@@ -190,6 +190,15 @@ blockquote::after {
     font-weight: 10;
 }
 
+.foot {
+    display: flex;
+    background-color:#1f2937;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(188, 183, 183);
+}
+
 
 
 
