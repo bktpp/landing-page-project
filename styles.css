@@ -139,7 +139,6 @@ h2 {
 .container-five {
     display: flex;
     height: 200px;
-    border: 2px red solid;
     justify-content: center;
     align-items: center;
 }
@@ -149,6 +148,21 @@ h2 {
     width: 60%;
     background-color: rgb(72, 123, 233);
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    color: white;
+    font-weight: bold;  
+}
+
+.sign-up-bar > button {
+    border: 1px white solid;
+    width: 100px;
+}
+
+.thin-font {
+    font-weight: 10;
 }
 
 
