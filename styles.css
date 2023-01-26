@@ -185,6 +185,7 @@ blockquote::after {
 
 .thin-font {
     font-weight: 10;
+    color:rgb(208, 203, 203)
 }
 
 .foot {
