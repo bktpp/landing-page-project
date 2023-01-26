@@ -7,8 +7,6 @@ body {
     margin: 0;
 }
 
-
-
 .head-cont {
     display: flex;
     background-color: #1f2937;
@@ -16,15 +14,11 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 75px;
-    /* flex: 1; */
-    border: 2px limegreen solid;
     padding: 5px 50px;
 }
 
 .logo {
-     height: 60px; 
-    /* width: 60px; */
-    border: 2px red solid;
+    height: 60px; 
     margin: 0;   
 }
 
@@ -35,9 +29,7 @@ body {
     gap: 30px;
     flex-direction: row;
     text-decoration: none;
-    border: 2px red solid;
     height: 60px;
-    
 }
 
 a:hover {
@@ -60,21 +52,12 @@ li, a {
     align-items: center;
     gap: 5px;
     margin: 0 auto;
-    border-bottom: 4px rgb(188, 183, 183) solid;
+    border-bottom: 4px #fdb347 solid;
 }
 
 .container-two > * {
-    width: 350px;
-    
+    width: 350px;  
 }
-
-/*.second {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px red solid;
-    justify-content: center;
-} */
 
 .second > .tigerbird {
     min-width: 0;
@@ -83,27 +66,12 @@ li, a {
     border-radius: 8px;
 } 
 
- /*.cont-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 75px; } */
-
  h1 {
     color: white;
     font-size: 48px;
     font-weight: extra-bold;
     width: 400px;
 } 
-
- /*.cont-right {
-    max-width: 200px;
-
-/*.tigerbird {
-    width: 100px;
-    height: 200px;
-} */
 
 p {
     color: rgb(188, 183, 183); 
@@ -130,7 +98,6 @@ h2 {
     gap: 100px;
     align-items: center;
     flex-wrap: wrap;
-    border: 2px red solid;
 }
 
 .picture {
@@ -194,21 +161,21 @@ blockquote::after {
 }
 
 .sign-up-bar {
-    height: 100px;
+    min-height: 100px;
     width: 60%;
     background-color: rgb(72, 123, 233);
     border-radius: 5px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    overflow: hidden;
+    padding: 25px 25px;
     color: white;
     font-weight: bold;  
 }
 
 .sign-up-bar > button {
     border: 1px white solid;
-    min-width: 0;
+    min-width: 85px;
 }
 
 .sign-up-bar > button:hover {
